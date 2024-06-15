@@ -15,4 +15,10 @@ public partial class Register : ContentPage
 		Navigation.PushAsync(new login(usuario, contrasena));
 
     }
+
+    private void btnCancelar_Clicked(object sender, EventArgs e)
+    {
+		Navigation.PushAsync(new login());
+
+    }
 }

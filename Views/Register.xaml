@@ -18,5 +18,8 @@
         <Button x:Name="btnGuardar"
                Text="Guardar"
                Clicked="btnGuardar_Clicked"/>
+        <Button x:Name="btnCancelar"
+                Text="CANCELAR"
+                Clicked="btnCancelar_Clicked"/>
     </VerticalStackLayout>
 </ContentPage>
